@@ -225,6 +225,8 @@ a:focus {
     font-size: 30px;
     line-height: 36px;
     letter-spacing: -1px;
+    valign: middle;
+    align: center;
 }
 
 .slide q {

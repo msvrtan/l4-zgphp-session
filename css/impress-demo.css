@@ -256,18 +256,6 @@ a:focus {
     padding: 0;
 }
 
-#title .try {
-    font-size: 64px;
-    position: absolute;
-    top: -0.5em;
-    left: 1.5em;
-
-    -webkit-transform: translateZ(20px);
-    -moz-transform:    translateZ(20px);
-    -ms-transform:     translateZ(20px);
-    -o-transform:      translateZ(20px);
-    transform:         translateZ(20px);
-}
 
 #title h1 {
     font-size: 190px;
@@ -281,6 +269,27 @@ a:focus {
 
 #title .footnote {
     font-size: 32px;
+}
+
+
+h2 {
+    font-size: 120px;
+
+    -webkit-transform: translateZ(50px);
+    -moz-transform:    translateZ(50px);
+    -ms-transform:     translateZ(50px);
+    -o-transform:      translateZ(50px);
+    transform:         translateZ(50px);
+}
+
+
+#opensource {
+    
+    padding-bottom: 300px;
+
+    background-image: url(Octocat.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
 }
 
 /*
